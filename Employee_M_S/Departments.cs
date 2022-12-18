@@ -16,5 +16,10 @@ namespace Employee_M_S
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

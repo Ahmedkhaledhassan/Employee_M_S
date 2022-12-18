@@ -19,3 +19,5 @@ C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\obj\Debug\net6.0-windows\Em
 C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\obj\Debug\net6.0-windows\ref\Employee_M_S.dll
 C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\bin\Debug\net6.0-windows\Guna.UI2.dll
 C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\obj\Debug\net6.0-windows\Employee_M_S.csproj.CopyComplete
+C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\obj\Debug\net6.0-windows\Employee_M_S.Departments.resources
+C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\obj\Debug\net6.0-windows\Employee_M_S.Salaries.resources
