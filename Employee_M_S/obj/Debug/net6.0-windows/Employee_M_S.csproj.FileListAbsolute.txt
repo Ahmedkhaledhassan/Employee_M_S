@@ -21,3 +21,9 @@ C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\bin\Debug\net6.0-windows\Gu
 C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\obj\Debug\net6.0-windows\Employee_M_S.csproj.CopyComplete
 C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\obj\Debug\net6.0-windows\Employee_M_S.Departments.resources
 C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\obj\Debug\net6.0-windows\Employee_M_S.Salaries.resources
+C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\IT\Desktop\widows\Employee_M_S\Employee_M_S\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
