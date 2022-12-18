@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "Employee_M_S/1.0.0": {
+        "dependencies": {
+          "Guna.UI2.WinForms": "2.0.3.5"
+        },
+        "runtime": {
+          "Employee_M_S.dll": {}
+        }
+      },
       "Guna.UI2.WinForms/2.0.3.5": {
         "runtime": {
           "lib/net40/Guna.UI2.dll": {
@@ -17,6 +25,11 @@
     }
   },
   "libraries": {
+    "Employee_M_S/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Guna.UI2.WinForms/2.0.3.5": {
       "type": "package",
       "serviceable": true,

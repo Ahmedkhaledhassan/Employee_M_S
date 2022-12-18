@@ -6,5 +6,10 @@ namespace Employee_M_S
         {
             InitializeComponent();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
