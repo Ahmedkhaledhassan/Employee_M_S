@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IT\\Desktop\\widows\\Employee_M_S\\Employee_M_S\\Employee_M_S.csproj": {}
+    "C:\\Users\\IT\\Source\\Repos\\Ahmedkhaledhassan\\Employee_M_S\\Employee_M_S\\Employee_M_S.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IT\\Desktop\\widows\\Employee_M_S\\Employee_M_S\\Employee_M_S.csproj": {
+    "C:\\Users\\IT\\Source\\Repos\\Ahmedkhaledhassan\\Employee_M_S\\Employee_M_S\\Employee_M_S.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IT\\Desktop\\widows\\Employee_M_S\\Employee_M_S\\Employee_M_S.csproj",
+        "projectUniqueName": "C:\\Users\\IT\\Source\\Repos\\Ahmedkhaledhassan\\Employee_M_S\\Employee_M_S\\Employee_M_S.csproj",
         "projectName": "Employee_M_S",
-        "projectPath": "C:\\Users\\IT\\Desktop\\widows\\Employee_M_S\\Employee_M_S\\Employee_M_S.csproj",
+        "projectPath": "C:\\Users\\IT\\Source\\Repos\\Ahmedkhaledhassan\\Employee_M_S\\Employee_M_S\\Employee_M_S.csproj",
         "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IT\\Desktop\\widows\\Employee_M_S\\Employee_M_S\\obj\\",
+        "outputPath": "C:\\Users\\IT\\Source\\Repos\\Ahmedkhaledhassan\\Employee_M_S\\Employee_M_S\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
