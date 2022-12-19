@@ -48,8 +48,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.EmpLbl = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.SalaryLbl = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.DepList)).BeginInit();
@@ -57,7 +55,6 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
@@ -267,49 +264,30 @@
             this.label7.Size = new System.Drawing.Size(83, 17);
             this.label7.TabIndex = 54;
             this.label7.Text = "Departments";
-            // 
-            // SalaryLbl
-            // 
-            this.SalaryLbl.AutoSize = true;
-            this.SalaryLbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SalaryLbl.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.SalaryLbl.Location = new System.Drawing.Point(600, 133);
-            this.SalaryLbl.Name = "SalaryLbl";
-            this.SalaryLbl.Size = new System.Drawing.Size(43, 17);
-            this.SalaryLbl.TabIndex = 56;
-            this.SalaryLbl.Text = "Salary";
-            this.SalaryLbl.Click += new System.EventHandler(this.SalaryLbl_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(542, 126);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(52, 32);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 55;
-            this.pictureBox4.TabStop = false;
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label9.Location = new System.Drawing.Point(747, 133);
+            this.label9.Location = new System.Drawing.Point(625, 133);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(46, 17);
             this.label9.TabIndex = 58;
             this.label9.Text = "logout";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(689, 126);
+            this.pictureBox5.Location = new System.Drawing.Point(567, 126);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(52, 32);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 57;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // Departments
             // 
@@ -318,8 +296,6 @@
             this.ClientSize = new System.Drawing.Size(883, 551);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.SalaryLbl);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.EmpLbl);
             this.Controls.Add(this.pictureBox3);
@@ -337,13 +313,13 @@
             this.Controls.Add(this.panel1);
             this.Name = "Departments";
             this.Text = "Departments";
+            this.Load += new System.EventHandler(this.Departments_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DepList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -368,8 +344,6 @@
         private PictureBox pictureBox3;
         private Label EmpLbl;
         private Label label7;
-        private Label SalaryLbl;
-        private PictureBox pictureBox4;
         private Label label9;
         private PictureBox pictureBox5;
     }

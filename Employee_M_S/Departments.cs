@@ -133,6 +133,37 @@ namespace Employee_M_S
             this.Hide();
 
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            Departments Obj = new Departments();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Form1 Obj = new Form1();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            Form1 Obj = new Form1();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void Departments_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

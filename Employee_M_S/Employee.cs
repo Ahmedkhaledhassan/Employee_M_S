@@ -170,5 +170,26 @@ namespace Employee_M_S
             Obj.Show();
             this.Hide();
         }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+            Employee Obj = new Employee();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            Form1 Obj = new Form1();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Form1 Obj = new Form1();
+            Obj.Show();
+            this.Hide();
+        }
     }
 }
