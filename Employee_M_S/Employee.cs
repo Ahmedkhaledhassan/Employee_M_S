@@ -22,8 +22,14 @@ namespace Employee_M_S
         }
         private void ShowEmp()
         {
-            string Query = "Select * from EmployeeTb1";
-            EmployeeList.DataSource = Con.GetData(Query);
+            try
+            {
+                string Query = "Select * from EmployeeTb1";
+                EmployeeList.DataSource = Con.GetData(Query);
+            }catch(Exception)
+            {
+                throw;
+            }
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -146,6 +152,23 @@ namespace Employee_M_S
             {
                 key = Convert.ToInt32(EmployeeList.SelectedRows[0].Cells[0].Value.ToString());
             }
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EmpNameTb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            Departments Obj = new Departments();
+            Obj.Show();
+            this.Hide();
         }
     }
 }

@@ -141,6 +141,7 @@
             this.EmpNameTb.Name = "EmpNameTb";
             this.EmpNameTb.Size = new System.Drawing.Size(190, 23);
             this.EmpNameTb.TabIndex = 9;
+            this.EmpNameTb.TextChanged += new System.EventHandler(this.EmpNameTb_TextChanged);
             // 
             // label6
             // 
@@ -303,6 +304,7 @@
             this.label11.Size = new System.Drawing.Size(43, 17);
             this.label11.TabIndex = 65;
             this.label11.Text = "Salary";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // pictureBox4
             // 
@@ -324,6 +326,7 @@
             this.label12.Size = new System.Drawing.Size(83, 17);
             this.label12.TabIndex = 63;
             this.label12.Text = "Departments";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label13
             // 

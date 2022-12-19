@@ -48,7 +48,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.EmpLbl = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.SalaryLbl = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -268,16 +268,17 @@
             this.label7.TabIndex = 54;
             this.label7.Text = "Departments";
             // 
-            // label8
+            // SalaryLbl
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label8.Location = new System.Drawing.Point(600, 133);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(43, 17);
-            this.label8.TabIndex = 56;
-            this.label8.Text = "Salary";
+            this.SalaryLbl.AutoSize = true;
+            this.SalaryLbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SalaryLbl.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.SalaryLbl.Location = new System.Drawing.Point(600, 133);
+            this.SalaryLbl.Name = "SalaryLbl";
+            this.SalaryLbl.Size = new System.Drawing.Size(43, 17);
+            this.SalaryLbl.TabIndex = 56;
+            this.SalaryLbl.Text = "Salary";
+            this.SalaryLbl.Click += new System.EventHandler(this.SalaryLbl_Click);
             // 
             // pictureBox4
             // 
@@ -317,7 +318,7 @@
             this.ClientSize = new System.Drawing.Size(883, 551);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.SalaryLbl);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.EmpLbl);
@@ -367,7 +368,7 @@
         private PictureBox pictureBox3;
         private Label EmpLbl;
         private Label label7;
-        private Label label8;
+        private Label SalaryLbl;
         private PictureBox pictureBox4;
         private Label label9;
         private PictureBox pictureBox5;

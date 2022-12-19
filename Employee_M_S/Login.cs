@@ -11,5 +11,10 @@ namespace Employee_M_S
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
